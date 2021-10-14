@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+
+}
+.wrapper{
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 8px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 1 0 100px;
+}
+header {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    border: 3px solid #319612;
+    background-color: rgb(156, 77, 12);
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 2em;
+    padding-top: 10px;
+    display: inline-block;
+  }
+  
+nav {
+    height: 40px;
+    width: 100%;
+    position: sticky;
+    top: 5;
+    left:0;
+    background-color: rgb(211, 125, 55);
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    z-index: 2;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+   
+aside{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(156, 77, 12);
+    position: absolute;
+    left: 70%;
+    top: 200px;
+    box-shadow: 10px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    display:inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 100px;
+}
+
+    footer {
+        width: 100%;
+        height: 50px;
+        background-color: burlywood;
+        position: fixed;
+        bottom: 0px;
+        
+    }
+    
+   .Projecttext {
+       top:160px;
+       left: 80px;
+       position: absolute;
+   }
+        
+       
+                .box1{
+                    height: 60px;
+                    width:700px ;
+                    margin:20px ;
+                    background-color:rgb(146, 46, 15) ;
+                    border-radius: 15px;
+                    color: white ;
+                    text-align:center ;
+                    font-family: 'Times New Roman', Times, serif;
+                     font-size: 1.6em;
+                     display:inline-flex;
+                     flex-direction: row;
+                     flex-wrap: wrap;
+                    flex: 1 0 100px;
+                   }
+                   .box2{
+                    height: 60px;
+                    width:700px ;
+                    margin:20px ;
+                    background-color:rgb(146, 46, 15) ;
+                    border-radius: 15px;
+                    color: white ;
+                    text-align:center ;
+                    font-family: 'Times New Roman', Times, serif;
+                     font-size: 1.6em;
+                     display:inline-flex;
+                     flex-direction: row;
+                     flex-wrap: wrap;
+                    flex: 1 0 100px;
+                   }
+                   .box3{
+                    height: 60px;
+                    width:700px ;
+                    margin:20px ;
+                    background-color:rgb(146, 46, 15)  ;
+                    border-radius: 15px;
+                    color: white ;
+                    text-align:center ;
+                    font-family: 'Times New Roman', Times, serif;
+                     font-size: 1.6em;
+                     display:inline-flex;
+                     flex-direction: row;
+                     flex-wrap: wrap;
+                    flex: 1 0 100px;
+                   }
+                   .box4{
+                    height: 60px;
+                    width:700px ;
+                    margin:20px ;
+                    background-color: rgb(146, 46, 15)  ;
+                    border-radius: 15px;
+                    color: white ;
+                    text-align:center ;
+                    font-family: 'Times New Roman', Times, serif;
+                     font-size: 1.6em;
+                     display:inline-flex;
+                     flex-direction: row;
+                     flex-wrap: wrap;
+                    flex: 1 0 100px;
+                   }
+                   
+                   footer{
+                       position: fixed;
+                       bottom: 0px;
+                     height: 30px;
+                     width: 100px;
+                     background-color:chocolate;
+                     color: white;
+                     text-align:center ;
+                    font-family: 'Times New Roman';
+                     font-size: 1.4em;
+                     text-align-last: justify;
+                   }
+                   .articles{
+                    height: 90%;
+                    width:65%;
+                    background-color:rgb(156, 77, 12) ;
+                    margin-left:2% ;
+                    border-radius: 15px;
+                    position: absolute;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    top: 200px;
+                    left: 5px;
+                    flex: 1 0 100px;
+                     display:inline-flex;
+                     flex-direction: row;
+                     flex-wrap: wrap;  
+                   }
+                 .boxarticle2{
+                     height: 60px;
+                     width:700px ;
+                    margin:20px ;
+                    background-color:white ;
+                    color:black ;
+                    text-align:center ;
+                    font-family: 'Times New Roman', Times, serif;
+                     font-size: 1.6em;
+                     display:inline-flex;
+                     flex-direction: row;
+                     flex-wrap: wrap;
+                    flex: 1 0 100px;
+                 }
+                
+                 @media screen and (max-width: 900px) {
+                    .asides{
+                        position: absolute;
+                        z-index:13 ;
+                        left:10px ;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                        flex: 1 0 100px;
+                    }
+                }
+                .prof_pics{
+                    height: 30px;
+                    width: 30px;
+                    padding: 3px;
+                }
+                
